@@ -19,6 +19,7 @@ local function filetype()
         ['markdown.pandoc'] = 'markdown',
         ['markdown.gfm'] = 'markdown',
         ['tex'] = 'latex',
+        ['vim'] = 'vimrc',
     }
     local ft = vim.bo.filetype
     if ft_maps[ft] ~= nil then
